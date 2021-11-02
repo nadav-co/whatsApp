@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/whatsApp/static/css/main.c7f368c7.chunk.css",
+    "main.js": "/whatsApp/static/js/main.8671bf7a.chunk.js",
+    "main.js.map": "/whatsApp/static/js/main.8671bf7a.chunk.js.map",
+    "runtime-main.js": "/whatsApp/static/js/runtime-main.0ce7659e.js",
+    "runtime-main.js.map": "/whatsApp/static/js/runtime-main.0ce7659e.js.map",
+    "static/css/2.e7ae3404.chunk.css": "/whatsApp/static/css/2.e7ae3404.chunk.css",
+    "static/js/2.904658bd.chunk.js": "/whatsApp/static/js/2.904658bd.chunk.js",
+    "static/js/2.904658bd.chunk.js.map": "/whatsApp/static/js/2.904658bd.chunk.js.map",
+    "static/js/3.d9a37bb8.chunk.js": "/whatsApp/static/js/3.d9a37bb8.chunk.js",
+    "static/js/3.d9a37bb8.chunk.js.map": "/whatsApp/static/js/3.d9a37bb8.chunk.js.map",
+    "index.html": "/whatsApp/index.html",
+    "static/css/2.e7ae3404.chunk.css.map": "/whatsApp/static/css/2.e7ae3404.chunk.css.map",
+    "static/css/main.c7f368c7.chunk.css.map": "/whatsApp/static/css/main.c7f368c7.chunk.css.map",
+    "static/js/2.904658bd.chunk.js.LICENSE.txt": "/whatsApp/static/js/2.904658bd.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/whatsApp/static/media/wa-bg.2504ef8e.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ce7659e.js",
+    "static/css/2.e7ae3404.chunk.css",
+    "static/js/2.904658bd.chunk.js",
+    "static/css/main.c7f368c7.chunk.css",
+    "static/js/main.8671bf7a.chunk.js"
+  ]
+}
