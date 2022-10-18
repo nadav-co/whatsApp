@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 export const InstallAlert = () => {
-    const [isVisible, setIsVisible] = useState(false)
-
-    useEffect(() => {
-        setIsVisible(!!window.installationEvent)
-    }, [window.installationEvent])
+    const [isVisible, setIsVisible] = useState(true)
 
     const onClick = () => {
         window.installationEvent?.prompt()
+        window.installationEvent?.userChoice.then(({ outcome }) => (outcome === 'accepted') && setIsVisible(false))
     }
-    if (!isVisible) return null
+
+    if (!window.installationEvent || !isVisible) return null
 
     return (
         <div className="install-alert">
