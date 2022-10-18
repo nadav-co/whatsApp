@@ -1,6 +1,7 @@
 {
-  "short_name": "Send WhatsApp",
+  "short_name": "WhatsApp",
   "name": "Send WhatsApp",
+  "description": "The app that help you use WhatsApp better. With \"Send WhatsApp\" you dont need to save anyone in order to send a WhatsApp. This is very usefull to check who called you and see theire picture as well",
   "icons": [
     {
       "src": "favicon.ico",
