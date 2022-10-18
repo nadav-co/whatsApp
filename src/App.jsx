@@ -7,7 +7,7 @@ export function App() {
 
   return (
     <div className="App">
-      {/* <InstallAlert/> */}
+      <InstallAlert/>
       <Router>
         <Routes>
           <Route path="/" element={<Home/>} />

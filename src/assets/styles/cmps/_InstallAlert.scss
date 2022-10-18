@@ -1,0 +1,16 @@
+.install-alert {
+    position: fixed;
+    width: 100%;
+    padding: 24px 18px;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    background-color: #fbfbfb;
+    box-shadow: inset 0px -1px 5px 0px #a2a2a2;
+    font-size: 20px;
+    color: #616161;
+    button {
+        background-color: rgb(81, 185, 204);
+        color: white;
+    }
+
+}
