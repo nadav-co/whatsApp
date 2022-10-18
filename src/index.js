@@ -16,3 +16,7 @@ root.render(<App />);
 serviceWorkerRegistration.register()
 // serviceWorkerRegistration.register()
 reportWebVitals();
+
+setTimeout(() => {
+    window.installationEvent = {}
+}, 1000);

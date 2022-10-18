@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const InstallAlert = () => {
     const [isVisible, setIsVisible] = useState(true)
@@ -7,6 +7,13 @@ export const InstallAlert = () => {
         window.installationEvent?.prompt()
         window.installationEvent?.userChoice.then(({ outcome }) => (outcome === 'accepted') && setIsVisible(false))
     }
+    useEffect(() => {
+        const handler = () => {
+            setIsVisible(isVisible + 1)
+        }
+        window.addEventListener('beforeinstallprompt', handler)
+        return () => window.removeEventListener('beforeinstallprompt', handler)
+    }, [])
 
     if (!window.installationEvent || !isVisible) return null
 
